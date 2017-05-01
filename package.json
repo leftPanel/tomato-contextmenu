@@ -8,6 +8,16 @@
     "demo": "http-server ./demo/ -p 80",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-util": "^3.0.8",
+    "http-server": "^0.9.0",
+    "uglify-js": "^2.8.12"
+  },
   "author": "huang",
   "license": "ISC"
 }
